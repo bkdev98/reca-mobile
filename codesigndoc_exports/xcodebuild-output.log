@@ -1,0 +1,26 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/quocs/Projects/reca/RECA/ios/RECA.xcworkspace -scheme RECA clean archive -archivePath /var/folders/7s/6_jwrthx52j9s8sfn4m20d5w0000gn/T/__codesigndoc__097609630/RECA.xcarchive
+
+User defaults from command line:
+    IDEArchivePathOverride = /var/folders/7s/6_jwrthx52j9s8sfn4m20d5w0000gn/T/__codesigndoc__097609630/RECA.xcarchive
+
+note: Using new build system
+note: Building targets in parallel
+
+** CLEAN SUCCEEDED **
+
+note: Using new build system
+note: Building targets in parallel
+note: Planning build
+note: Constructing build description
+error: Signing for "RECA" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'RECA' from project 'RECA')
+warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 5.0, but the range of supported deployment target versions is 8.0 to 13.4.99. (in target 'CocoaAsyncSocket' from project 'Pods')
+warning: no rule to process file '/Users/quocs/Projects/reca/RECA/ios/Pods/Flipper-RSocket/rsocket/benchmarks/CMakeLists.txt' of type 'text' for architecture 'armv7' (in target 'Flipper-RSocket' from project 'Pods')
+warning: no rule to process file '/Users/quocs/Projects/reca/RECA/ios/Pods/Flipper-RSocket/rsocket/benchmarks/README.md' of type 'net.daringfireball.markdown' for architecture 'armv7' (in target 'Flipper-RSocket' from project 'Pods')
+warning: no rule to process file '/Users/quocs/Projects/reca/RECA/ios/Pods/Flipper-RSocket/rsocket/README.md' of type 'net.daringfireball.markdown' for architecture 'armv7' (in target 'Flipper-RSocket' from project 'Pods')
+warning: no rule to process file '/Users/quocs/Projects/reca/RECA/ios/Pods/Flipper-RSocket/rsocket/benchmarks/CMakeLists.txt' of type 'text' for architecture 'arm64' (in target 'Flipper-RSocket' from project 'Pods')
+warning: no rule to process file '/Users/quocs/Projects/reca/RECA/ios/Pods/Flipper-RSocket/rsocket/benchmarks/README.md' of type 'net.daringfireball.markdown' for architecture 'arm64' (in target 'Flipper-RSocket' from project 'Pods')
+warning: no rule to process file '/Users/quocs/Projects/reca/RECA/ios/Pods/Flipper-RSocket/rsocket/README.md' of type 'net.daringfireball.markdown' for architecture 'arm64' (in target 'Flipper-RSocket' from project 'Pods')
+warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 6.0, but the range of supported deployment target versions is 8.0 to 13.4.99. (in target 'OpenSSL-Universal' from project 'Pods')
+
+** ARCHIVE FAILED **
